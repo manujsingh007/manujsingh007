@@ -35,4 +35,5 @@ Estimates the remaining useful life of turbofan engines (NASA C-MAPSS) with pred
 
 ### 📫 Contact
 
-[LinkedIn](https://linkedin.com/in/manuj-singh-sansanwal)
+- **LinkedIn:** [manuj-singh-sansanwal](https://www.linkedin.com/in/manuj-singh-sansanwal-14769a242)
+- **Email:** [manujsansanwal2002@gmail.com](mailto:manujsansanwal2002@gmail.com)
