@@ -1,76 +1,38 @@
-# 👋 Hi, I'm Manuj Sansanwal
+## Hi, I'm Manuj 👋
 
-### 🎓 MSc AI Engineering Student | 🤖 Aspiring AI/ML Engineer | 🇩🇪 Germany
+**M.Eng. student in AI Engineering of Autonomous Systems at Technische Hochschule Ingolstadt (THI)**
+B.Sc. International Business Information Systems, Hochschule Furtwangen
 
-I'm currently pursuing my **Master's in AI Engineering (Autonomous Engineering)** at **Technische Hochschule Ingolstadt (THI), Germany**.
+I'm a software developer moving into machine learning engineering. I'm interested in what it takes to put ML into production: reliable data pipelines, honest evaluation, and models that are deployed, monitored and explainable. My focus is industrial and automotive AI: sensor data, condition monitoring and perception.
 
-I'm passionate about Artificial Intelligence, Machine Learning, and building practical solutions to real-world problems. I'm currently strengthening my programming and problem-solving skills while developing hands-on projects in AI and Machine Learning.
-
-My goal is to grow into an **AI/ML Engineer** by combining academic knowledge with practical development experience.
-
----
-
-### 🚀 What I'm Learning
-
-- 🐍 Python Programming
-- 📊 Data Analysis with NumPy and Pandas
-- 🤖 Machine Learning with Scikit-learn
-- 🗄️ SQL and Database Fundamentals
-- 🧠 Deep Learning and Neural Networks
-- 🔧 Git, GitHub and Software Development
-
-### 🛠️ Technologies & Tools
-
-**Languages**
-- Python
-- SQL
-
-**Libraries & Frameworks**
-- NumPy
-- Pandas
-- Scikit-learn
-- PyTorch (Learning)
-
-**Tools**
-- Git & GitHub
-- VS Code
-- Jupyter Notebook
-- Streamlit (Planned)
+🔎 **Open to Werkstudent (working student) roles** in ML / AI / data / software engineering, Ingolstadt · Munich · remote
+🗣️ English (C2) · German (B2)
 
 ---
 
-### 📂 Featured Projects
+### 🚧 Currently building
 
-| Project | Description | Status |
-|---|---|---|
-| Customer Churn Prediction | Building a machine learning model to predict customer churn | 🔄 In Progress |
-| Predictive Maintenance | Exploring machine learning for industrial equipment failure prediction | 📌 Planned |
-| Object Detection with YOLO | Exploring computer vision and object detection | 📌 Planned |
+**[Industrial Predictive Maintenance & Failure Intelligence](#)** *(in progress)*
+Estimates the remaining useful life of turbofan engines (NASA C-MAPSS) with prediction intervals, predicts upcoming failures and detects anomalies. Built as a deployable system rather than a notebook: grouped (leakage-free) evaluation, MLflow experiment tracking, a FastAPI service, PostgreSQL, a monitoring dashboard and Docker.
 
----
+`Python` `PyTorch` `LightGBM` `scikit-learn` `FastAPI` `PostgreSQL` `MLflow` `Docker` `GitHub Actions`
 
-### 🎓 Education
+### 🗺️ Planned
 
-- **MSc Artificial Intelligence Engineering (Autonomous Engineering)** — Technische Hochschule Ingolstadt, Germany
-- **BSc Business Information Systems** — Hochschule Furtwangen University, Germany
+- **Industrial visual inspection:** defect detection and unsupervised anomaly detection on images, with Grad-CAM explanations
+- **Evidence-based document RAG:** German/English question answering over technical documents, with citation checking and retrieval evaluation
+- **MLOps platform:** automated training, model registry, drift detection and retraining, serving more than one model
 
 ---
 
-### 🎯 Current Goals
+### 🛠️ Tech I work with
 
-- Build a strong foundation in Python and Machine Learning.
-- Develop practical AI/ML portfolio projects.
-- Improve my problem-solving and software development skills.
-- Contribute to open-source projects.
-- Find a working student opportunity in AI, Machine Learning or Data Science in Germany.
+**ML / AI:** Python · PyTorch · scikit-learn · LightGBM · pandas · NumPy
+**Backend & engineering:** FastAPI · Java / Spring Boot · REST APIs · SQL / PostgreSQL · TypeScript / React
+**MLOps & tooling:** Docker · Git · GitHub Actions (CI/CD) · MLflow · Linux · pytest
 
 ---
 
-### 📫 Connect With Me
+### 📫 Contact
 
-- **GitHub:** [@manujsingh007](https://github.com/manujsingh007)
-- **Location:** Germany
-
----
-
-⭐ *Always learning, building, and exploring the world of AI.*
+[LinkedIn](https://linkedin.com/in/manuj-singh-sansanwal)
