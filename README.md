@@ -12,7 +12,7 @@ I'm a software developer moving into machine learning engineering. I'm intereste
 
 ### 🚧 Currently building
 
-**[Industrial Predictive Maintenance & Failure Intelligence](#)** *(in progress)*
+**[Industrial Predictive Maintenance & Failure Intelligence](https://github.com/manujsingh007/industrial-predictive-maintenance)** *(in progress)*
 Estimates the remaining useful life of turbofan engines (NASA C-MAPSS) with prediction intervals, predicts upcoming failures and detects anomalies. Built as a deployable system rather than a notebook: grouped (leakage-free) evaluation, MLflow experiment tracking, a FastAPI service, PostgreSQL, a monitoring dashboard and Docker.
 
 `Python` `PyTorch` `LightGBM` `scikit-learn` `FastAPI` `PostgreSQL` `MLflow` `Docker` `GitHub Actions`
