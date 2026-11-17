@@ -13,9 +13,14 @@ I'm a software developer moving into machine learning engineering. I'm intereste
 ### 🚧 Currently building
 
 **[Industrial Predictive Maintenance & Failure Intelligence](https://github.com/manujsingh007/industrial-predictive-maintenance)** *(in progress)*
-Estimates the remaining useful life of turbofan engines (NASA C-MAPSS) with prediction intervals, predicts upcoming failures and detects anomalies. Built as a deployable system rather than a notebook: grouped (leakage-free) evaluation, MLflow experiment tracking, a FastAPI service, PostgreSQL, a monitoring dashboard and Docker.
+Estimates the remaining useful life (RUL) of turbofan engines from multivariate sensor data (NASA C-MAPSS), with calibrated prediction intervals.
 
-`Python` `PyTorch` `LightGBM` `scikit-learn` `FastAPI` `PostgreSQL` `MLflow` `Docker` `GitHub Actions`
+- **Result:** test RMSE **14.6 cycles** (95% CI 12.5–16.6) on FD001, about 7 cycles better than a linear baseline; evaluated **once** on the sealed test set under a pre-registered protocol
+- **Uncertainty:** 90% prediction intervals via Mondrian conformal prediction (93% empirical test coverage), about ±6 cycles near failure
+- **Engineering:** leakage-free engine-level cross-validation, causal window features, LightGBM vs. 1D-CNN comparison, MLflow experiment tracking, architecture decision records, CI with GitHub Actions
+- **Next:** error analysis, then a FastAPI prediction service with PostgreSQL, a monitoring dashboard and Docker
+
+`Python` `LightGBM` `PyTorch` `scikit-learn` `pandas` `MLflow` `pytest` `GitHub Actions`
 
 ### 🗺️ Planned
 
