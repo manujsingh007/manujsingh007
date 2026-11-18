@@ -19,9 +19,10 @@ Estimates the remaining useful life (RUL) of turbofan engines from multivariate 
 - **Uncertainty:** 90% prediction intervals via Mondrian conformal prediction (93% empirical test coverage), about ±6 cycles near failure
 - **Engineering:** leakage-free engine-level cross-validation, causal window features, LightGBM vs. 1D-CNN comparison, MLflow experiment tracking, architecture decision records, CI with GitHub Actions
 - **Error analysis:** the model is accurate near failure (~4 cycles RMSE) but predicts fast-degrading engines too late in mid-life; weaknesses documented with future fixes
-- **Next:** a FastAPI prediction service with PostgreSQL, a monitoring dashboard and Docker
+- **Serving:** FastAPI service loading the `champion` model from the MLflow registry, PostgreSQL storage (Alembic migrations) for readings and predictions, and a replay simulator that streams test engines cycle by cycle; integration tests run against Postgres in CI
+- **Next:** a monitoring dashboard and full Docker packaging
 
-`Python` `LightGBM` `PyTorch` `scikit-learn` `pandas` `MLflow` `pytest` `GitHub Actions`
+`Python` `LightGBM` `PyTorch` `scikit-learn` `pandas` `MLflow` `FastAPI` `PostgreSQL` `SQLAlchemy` `Docker Compose` `pytest` `GitHub Actions`
 
 ### 🗺️ Planned
 
