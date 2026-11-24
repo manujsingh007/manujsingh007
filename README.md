@@ -10,9 +10,9 @@ I'm a software developer moving into machine learning engineering. I'm intereste
 
 ---
 
-### 🚧 Currently building
+### 🏭 Featured project
 
-**[Industrial Predictive Maintenance & Failure Intelligence](https://github.com/manujsingh007/industrial-predictive-maintenance)** *(in progress)*
+**[Industrial Predictive Maintenance & Failure Intelligence](https://github.com/manujsingh007/industrial-predictive-maintenance)**
 Estimates the remaining useful life (RUL) of turbofan engines from multivariate sensor data (NASA C-MAPSS), with calibrated prediction intervals.
 
 - **Result:** test RMSE **14.6 cycles** (95% CI 12.5–16.6) on FD001, about 7 cycles better than a linear baseline; evaluated **once** on the sealed test set under a pre-registered protocol
@@ -21,7 +21,7 @@ Estimates the remaining useful life (RUL) of turbofan engines from multivariate 
 - **Error analysis:** the model is accurate near failure (~4 cycles RMSE) but predicts fast-degrading engines too late in mid-life; weaknesses documented with future fixes
 - **Serving:** FastAPI service loading the `champion` model from the MLflow registry, PostgreSQL storage (Alembic migrations) for readings and predictions, and a replay simulator that streams test engines cycle by cycle; integration tests run against Postgres in CI
 - **Monitoring:** Streamlit fleet dashboard alerting on the interval's lower bound (caught all 16 test engines within 20 cycles of failure, no far-from-failure false alarms) and PSI drift monitoring validated by fault injection
-- **Next:** one-command Docker packaging of the full stack
+- **Deployment:** the full stack (PostgreSQL, migrations, model training, API, dashboard) starts with one `docker compose up`; CI builds the images; documented with an architecture diagram, model card and four architecture decision records
 
 `Python` `LightGBM` `PyTorch` `scikit-learn` `pandas` `MLflow` `FastAPI` `PostgreSQL` `SQLAlchemy` `Docker Compose` `Streamlit` `pytest` `GitHub Actions`
 
